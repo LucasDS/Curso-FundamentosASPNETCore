@@ -1,0 +1,3 @@
+	- Configurações globais (para todos os ambientes)
+
+NADA DE NOVO

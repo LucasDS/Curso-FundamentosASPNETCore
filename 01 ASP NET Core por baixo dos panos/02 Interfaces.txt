@@ -1,0 +1,15 @@
+Inferfaces que compõem a configuração do ASPNET Core.
+
+Iconfiguration
+Representa a rais de uma hierarquia Microsoft.Extensions.Configuration,Iconfiguration. Responsavel por gerencias as constraints do ASPNET Core.
+Ex: No inicio da aplicação ela recebe do ASP NET uma injeção de dependencia do tipo Iconfiguration. Que contem por exemplo as chaves do appSettings.json
+
+IServiceCollection
+Representa um contrato para uma coleção de serviços. Usada principalmente para adição de middlewares ao pipeline do ASPNET Core.
+
+IApplicationBuilder
+Representa um contrato para classes que irão prover mecanismos de configuração de um middleware. Essa interface é estendida por classes que implementam métodos de configuração para cada middleware. Usada para configuração dos middlewares do pipeline.
+
+IHostEnvironment
+Fornece informações sobre o ambiente de hospedagem Web em que uma aplicação esta sendo executada.
+Exemplo: Se o ambiente for desenv, sera exibido em tela os erros de database e exceptions. Caso não seja, sera enviado o UseExceptionHandler com a pagina de erro para o usuario. Esta é uma configuração para que a aplicação saiba se comportar automaticamente conforme o ambiente. 

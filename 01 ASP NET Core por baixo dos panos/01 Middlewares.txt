@@ -1,0 +1,13 @@
+Middlewares
+São componentes de software em uma aplicação ASP NET Core. Estes componentes manipulam dados entre os requests e responses.
+
+Middlewares podem trabalhar juntos lado a lado. 
+
+Request -> Middlewares -> Response
+
+Exemplos:
+MCV Core, Identity e o Logging são middlewares. Você pode criar os próprios middlewares.
+
+
+
+

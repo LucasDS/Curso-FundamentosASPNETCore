@@ -1,0 +1,12 @@
+
+
+Program:
+
+Tem como função dizer como a aplicação vai funcionar. 
+
+	- Metodo Main
+	- Chama a startup. Os metodos da startup poderiam estar direto na Main. Mas não é uma boa pratica.
+
+
+Startup
+Configurações para log, swagger, injeção de dependencia e etc.
