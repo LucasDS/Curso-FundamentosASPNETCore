@@ -1,0 +1,5 @@
+Função: armazenar arquivos estáticos com CSS, JS e etc.
+
+Arquivos dentro do root você tem acesso a um ferramental para realizar minificação, bundle, configurações de acesso a repositórios de pacote e etc.
+
+Arquivo Estático: arquivo não compilado. 
