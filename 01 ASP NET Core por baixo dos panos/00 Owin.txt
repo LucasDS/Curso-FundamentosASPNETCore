@@ -1,0 +1,7 @@
+OWIN - Open Web Interface for .NET
+
+O OWIN é uma especificação para que o ASP.NET Components se comunique com o Web Host.
+
+No modelo ASPNET MVC 5 ou anterior o ASP.NET Components estava dentro do Web Host IIS - iNTERNET INFORMATIONS SERVICE. O Asp.Net dependia do IIS.
+
+No .NET Core você pode utilizar qualquer host. 

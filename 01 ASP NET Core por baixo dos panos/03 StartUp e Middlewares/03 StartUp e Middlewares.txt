@@ -1,0 +1,6 @@
+
+
+Construção e implementação de um Middleware.
+
+
+	• Alguns middlewares não precisam ser adicionados na configuração para poder ser configurado. Middlewares pequenos podem ser adicionados direto na configuração no Configure.

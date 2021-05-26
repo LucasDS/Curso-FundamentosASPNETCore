@@ -7,7 +7,3 @@ Request -> Middlewares -> Response
 
 Exemplos:
 MCV Core, Identity e o Logging são middlewares. Você pode criar os próprios middlewares.
-
-
-
-
